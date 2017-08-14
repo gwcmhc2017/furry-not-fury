@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #d0dff2;
+  margin: 0;
+  padding: 40px;
+}
+
+a {
+  color: #1929a0;
+}
+
+.highlighted {
+  background-color: #0d0d0d;
+  color: #66ff33;
+  padding: 2px;
+  font-family: monospace;
+}
+
+.title {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 50%;
+  width: 200px;
+  margin: 40px auto;
+  display: block;
+}
+
+#list-title {
+  color: #37217a;
+}
