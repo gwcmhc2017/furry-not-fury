@@ -30,3 +30,53 @@ a {
 #list-title {
   color: #37217a;
 }
+
+.declawing {
+  background-image: url("images/declawing-image.jpeg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+#declawingFact {
+  color: white;
+}
+
+#farming {
+  background-image: url("images/farm-image.jpeg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+#testing {
+  background-image: url("images/testing-image.jpeg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+#puppyMills {
+  background-image: url("images/puppymills.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+
+#declawingAnswer1,
+#declawingAnswer2 {
+  display: none;
+}
+
+#farmingAnswer1,
+#farmingAnswer2 {
+  display: none;
+}
+
+#testingAnswer1,
+#testingAnswer2 {
+  display: none;
+}
