@@ -3,13 +3,13 @@ $(document).ready(function(){
   // var timesSillyButtonClicked = 0;
   $('#yes1').click(function() {
    $('#declawingAnswer2').show();
-   $('#declawing').hide();
+   $('.declawing').hide();
 
 
 });
 $('#no1').click(function() {
  $('#declawingAnswer1').show();
- $('#declawing').hide();
+ $('.declawing').hide();
 
 
 });
