@@ -7,6 +7,11 @@ body {
 
     background-image: url("images/bluePatterns.jpg");
 }
+#opening{
+  border-style: groove;
+  border-width: 10px;
+  border-color: #ccffff;
+}
 
 a {
   color: #1929a0;
@@ -58,6 +63,7 @@ padding: 17px;
   background-color: #00cccc;
   width: 400px;
   height: 400px;
+  padding: 20px;
 }
 
 #declawingFact {
@@ -68,6 +74,7 @@ padding: 17px;
   background-color: #00cccc;
   width: 400px;
   height: 400px;
+    padding: 20px;
   /*color: white;*/
 }
 
@@ -75,6 +82,7 @@ padding: 17px;
   background-color: #00cccc;
   width: 400px;
   height: 400px;
+    padding: 20px;
   /*color: white;*/
 }
 
@@ -82,6 +90,7 @@ padding: 17px;
   background-color: #00cccc;
   width: 400px;
   height: 400px;
+    padding: 20px;
   /*color: white;*/
 }
 
@@ -111,13 +120,15 @@ padding: 17px;
    font-family: 'Aladin', cursive;
    color: black;
    opacity: 1;
-   font-size: 24px;
+   font-size: 24px
+   /*border-style: dotted;*/
 }
 
 #declawingImage1 {
   display: block;
   width: 250px;
   margin: 40px auto;
+  border-style: ridge;
 }
 button {
   width: 150px;
@@ -126,23 +137,36 @@ button {
   color: black;
   font-size: 20px;
   font-family: 'Aladin', cursive;
+  /*display: inline;*/
+  display: block;
+  margin: auto;
+  text-align: center;
   /*margin: 40px auto;
   display: block;*/
 }
+.buttons1{
+  display: line;
+  width: 150px;
+  margin: auto;
+}
+
 #farmingImage1{
   display: block;
   width: 250px;
   margin: 40px auto;
+  border-style: ridge;
 }
 #testingImage1{
   display: block;
   width: 250px;
   margin: 40px auto;
+  border-style: ridge;
 }
 #puppyImage1{
   display: block;
   width: 250px;
   margin: 40px auto;
+  border-style: ridge;
 }
 
 .answer {
