@@ -1,5 +1,6 @@
 $(document).ready(function(){
-
+  //example code - feel free to delete!
+  // var timesSillyButtonClicked = 0;
   $('#yes1').click(function() {
    $('#declawingAnswer2').show();
    $('.declawing').hide();

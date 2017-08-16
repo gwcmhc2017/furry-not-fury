@@ -58,7 +58,8 @@ padding: 17px;
 }
 
 .declawing {
-
+  /*background-image: url("images/declawing-image.jpeg");*/
+  /*background-repeat: no-repeat;*/
   background-color: #00cccc;
   width: 400px;
   height: 400px;
@@ -66,7 +67,7 @@ padding: 17px;
 }
 
 #declawingFact {
-
+  /*color: white;*/
 }
 
 #farming {
@@ -74,7 +75,7 @@ padding: 17px;
   width: 400px;
   height: 400px;
     padding: 20px;
-
+  /*color: white;*/
 }
 
 #testing {
@@ -82,7 +83,7 @@ padding: 17px;
   width: 400px;
   height: 400px;
     padding: 20px;
-
+  /*color: white;*/
 }
 
 #puppyMills {
@@ -90,7 +91,7 @@ padding: 17px;
   width: 400px;
   height: 400px;
     padding: 20px;
-
+  /*color: white;*/
 }
 
 #declawingAnswer1,
@@ -114,23 +115,22 @@ padding: 17px;
 
 .declawing, #farming, #testing, #puppyMills {
    width: 500px;
-   height: 500px;
    margin: 40px auto;
    display: block;
    font-family: 'Aladin', cursive;
    color: black;
    opacity: 1;
    font-size: 24px
-
+   /*border-style: dotted;*/
 }
 
 #declawingImage1 {
   display: block;
   width: 250px;
   margin: auto;
-
+  /*margin-top: 50px;*/
   border-style: ridge
-
+  /*margin: auto;*/
 }
 button {
   width: 150px;
@@ -139,17 +139,21 @@ button {
   color: black;
   font-size: 20px;
   font-family: 'Aladin', cursive;
-
+  /*display: inline;*/
   display: block;
   margin: auto;
   text-align: center;
-  opacity: 1;
-
+  /*margin: 40px auto;
+  display: block;*/
 }
+/*.buttons1{
+  display: line;
+  width: 150px;
+  margin: auto;
+}*/
 
-
-.a {
-  visibility: hidden;
+#a {
+  opacity: 0;
 }
 #yes1, #yes2, #yes3, #yes4 {
   display: block;
@@ -188,22 +192,7 @@ button {
   color: black;
   font-family: 'Aladin', cursive;
   display: block;
-  width: 500px;
-  height: 500px;
+  width: 250px;
   margin: 40px auto;
   font-size: 25px;
-  padding: 20px;
-  border-style: dotted;
-  border-color: white;
-  border-width: 20px;
-  opacity: 1;
-}
-
-.declawingStat, .puppyImg2, .testingImg2, .dairyImage {
-  display: block;
-  width: 300px;
-  margin: auto;
-  opacity: 1;
-
-
 }

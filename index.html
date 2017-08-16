@@ -7,41 +7,46 @@
     <script type="text/javascript" src="./app.js" ></script>
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
   </head>
 <body>
 <div class="wrapper">
   <h1 class="title">Animal Welfare</h1>
   <img src="./images/animals.jpg" class="rounded"/>
-  <p>This is website to teach you about the Great Depression... for animals. This is a website to teach you about animal abuse, because there are many disgusting things that people will do to animals. As humans, we need to step up and make a change in order to create a more ethical environment for the creatures that we share our planet with. </p>
+<p id="opening" >This is a website to teach you about the Great Depression... for animals. This is a website to teach you about animal abuse, because there are many disgusting things that people will do to animals. As humans, we need to step up and make a change in order to create a more ethical environment for the creatures that we share our planet with. </p>
 
   <div class="declawing">
 <p id='declawingFact'> #1. Declawing, a selective procedure for cats at the owner's request, is illegal in many European nations, as it is considered inhumane. Is this practice still legal in the United States?</p>
-    <button id="yes1">Yes</button>
-      <button id="no1">No</button>
+    <button class="buttons1" id="yes1">Yes</button>
+      <button class="buttons1" id="no1">No</button>
+      <p class="a">aaaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <img id=declawingImage1 src="images/declawing-image.jpeg"/>
 </div>
 
-<div id='declawingAnswer1'>
+<div class='answer' id='declawingAnswer1'>
   <img class='declawingStat' src="images/declawing-stat.jpeg"/>
-<p> Unfortunately, not. Declawing is, in fact, the unnecesary amputation of the last bone of a cat's claws; this is the equivalent of amputating a persons first knuckle. Wouldn't that hurt?</p>
+<p> Unfortunately, not. Declawing is, in fact, the unnecesary amputation of the last bone of a cat's claws; this is the equivalent of amputating a person's first knuckle. Wouldn't that hurt?</p>
 </div>
 
-<div id='declawingAnswer2'>
+<div class='answer' id='declawingAnswer2'>
   <img class='declawingStat' src="images/declawing-stat.jpeg"/>
-<p> Unfortunately, you are right. Declawing is, in fact, the unnecesary amputation of the last bone of a cat's claws; this is the equivalent of amputating a persons first knuckle. Wouldn't that hurt?</p>
+<p> Unfortunately, you are right. Declawing is, in fact, the unnecesary amputation of the last bone of a cat's claws; this is the equivalent of amputating a person's first knuckle. Wouldn't that hurt?</p>
 </div>
 
 <div id='farming'>
-  <p id='farmingFact'> #2. Although farms slaughter animals to make a living, these farms must provide the animals with ethical living conditions while they are alive, right?
+  <p id='farmingFact'> #2. Although farms slaughter animals to make a living, these farms must provide the animals with ethical living conditions while they are alive, right?</p>
     <button id="yes2">Yes</button>
       <button id="no2">No</button>
+      <p class="a">aaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+      <img id=farmingImage1 src="images/farm-image.jpeg"/>
 </div>
 
-<div id='farmingAnswer1'>
+<div class='answer' id='farmingAnswer1'>
   <img class='dairyImage' src="images/dairy-farm.jpeg"/>
 <p> Unfortunately, you are right. Often times, large farms hold their animals in extremely small cages, and some even feed their livestock antobiotics and growth hormones. To make matters worse, these inhumane farms tend to force the closure of smaller, ethical farms because they are able to sell more product at a lower cost. </p>
 </div>
 
-<div id='farmingAnswer2'>
+<div class='answer' id='farmingAnswer2'>
   <img class='dairyImage' src="images/dairy-farm.jpeg"/>
 <p> Unfortunately, not. Often times, large farms hold their animals in extremely small cages, and some even feed their livestock antobiotics and growth hormones. To make matters worse, these inhumane farms tend to force the closure of smaller, ethical farms because they are able to sell more product at a lower cost. </p>
 </div>
@@ -53,14 +58,16 @@
        <p id='testingFact'> #3. With many cosmetic companies such as Lush and Urban Decay becoming cruelty-free, can it officially be said that testing on animals has ended in the cosmetic industry?</p>
        <button id="yes3">Yes</button>
          <button id="no3">No</button>
+         <p class="a">aaaaaaaaaaaaaaaaaaa</p>
+         <img id=testingImage1 src="images/testing-image.jpeg"/>
      </div>
 
-  <div id='testingAnswer1'>
+  <div class='answer' id='testingAnswer1'>
   <img class='testingImg2' src='images/testing-image2.jpeg'/>
   <p> Unfortunately, you are right. According to Humane Society International, approximately 100,000 to 200,000 animals either suffer or die due to cosmetic testing every year. This includes dripping cosmetics into the eyes of animals and rubbing the product onto a shaved portion of the animal's skin. </p>
   </div>
 
-  <div id='testingAnswer2'>
+  <div class='answer' id='testingAnswer2'>
   <img class='testingImg2' src='images/testing-image2.jpeg'/>
   <p> Unfortunately, not. According to Humane Society International, approximately 100,000 to 200,000 animals either suffer or die due to cosmetic testing every year. This includes dripping cosmetics into the eyes of animals and rubbing the product onto a shaved portion of the animal's skin. </p>
   </div>
@@ -71,19 +78,21 @@
   <p id='puppyMillsFact'> #4. The puppies in the local pet store are so adorable! They must be raised in loving homes with great conditions before being brought to the pet store, right?</p>
   <button id="yes4">Yes</button>
     <button id="no4">No</button>
+    <p class="a">aaaaaaaaaaaaaaaaaaaaaaaa</p>
+    <img id='puppyImage1' src="images/puppymills.jpg"/>
   </div>
 
 
-    <div id='puppyAnswer1'>
+    <div class='answer' id='puppyAnswer1'>
     <img class='puppyImg2' src='images/puppyMillData.png'/>
     <p> Unfortunately, not. Puppy mills, the breeding houses where dogs are raised until being brought to pet stores, are not always inspected. Females are bred without allowing for recovery time, for financial gain, and then are often killed when they are no longer able to reproduce. If this isn't shocking enough, the dogs are additionally often housed in unsanitary and overcrowded conditions.</p>
     </div>
 
-    <div id='puppyAnswer2'>
+    <div class='answer' id='puppyAnswer2'>
     <img class='puppyImg2' src='images/puppyMillData.png'/>
     <p> Unfortunately, you are right. Puppy mills, the breeding houses where dogs are raised until being brought to pet stores, are not always inspected. Females are bred without allowing for recovery time, for financial gain, and then are often killed when they are no longer able to reproduce. If this isn't shocking enough, the dogs are additionally often housed in unsanitary and overcrowded conditions.</p>
     </div>
-  
+
   <h3 class="title" id="list-title">Here are some resources that might help you along the way</h3>
   <ul>
     <li><a href="http://www.aveda.com/?gclid=CJG87ePA2dUCFTiaswodABsDJA&gclsrc=ds">Makeup that does NOT test on animals</a></li>
@@ -91,8 +100,9 @@
     <li><a href="https://www.northeastanimalshelter.org/">Animal shelter in MA</a>  that tells you all the styles you can change</li>
     <li><a href="https://www.purrcatcafe.com/">Another Cat Cafe</a> If this works with your learning style, you can learn a lot here</li>
     <li><a href="https://seattlemeowtropolitan.com/">Cat Cafe</a> A game that teaches you about Flexbox, which is a helpful way to position items on the page using CSS</li>
+    <li><a href=""></a></li>
   </ul>
- 
+
 </div>
 </body>
 </html>
