@@ -50,16 +50,4 @@ $('#no4').click(function() {
 
 });
 });
-// +      // console.log("poop");
-// +      $("#").show();
-// +    } else if (timesAButtonClicked < timesBButtonClicked) {
-// +      $("#Olaf").show();
 
-//     timesSillyButtonClicked++;
-//     $('#silly-button-text').text(
-//       'You clicked the silly button ' + timesSillyButtonClicked + ' times!',
-//     );
-//   });
-//
-//   //write your code here!
-// });
