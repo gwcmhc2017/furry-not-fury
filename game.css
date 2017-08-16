@@ -1,0 +1,36 @@
+#cat {
+  width: 150px;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+body {
+    background-image: url("images/layladrawing.png");
+ background-color: #b3d9ff;
+ background-repeat: no-repeat;
+background-size: cover;
+}
+#house{
+  position: relative;
+  top: 775px;
+  left: 50px;
+  width: 150px;
+  height: 150px;
+}
+
+#house2{
+position: relative;
+top: 775px;
+left: 150px;
+width:200px;
+height:150px;
+}
+
+#house3{
+position: relative;
+top: 775px;
+left: 250px;
+width: 200px;
+height: 150px;
+}
