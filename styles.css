@@ -1,8 +1,11 @@
 body {
-  font-family: Helvetica, sans-serif;
-  background-color: #d0dff2;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 20px;
+  background-color: 	#ccf2ff;
   margin: 0;
   padding: 40px;
+
+    background-image: url("images/bluePatterns.jpg");
 }
 
 a {
@@ -14,17 +17,35 @@ a {
   color: #66ff33;
   padding: 2px;
   font-family: monospace;
+  opacity:1;
 }
 
 .title {
   text-align: center;
+  opacity:1;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 50px;
 }
 
 .rounded {
-  border-radius: 50%;
-  width: 200px;
-  margin: 40px auto;
+  border-radius: 25px;
+   background: url(paper.gif);
+   background-position: left top;
+   background-repeat: repeat;
+   padding: 30px;
+   width: 300px;
+   height: 300px;
+   display: block;
+    margin: auto;
   display: block;
+  opacity:1;
+}
+.wrapper {
+background-color:white;
+opacity:0.7;
+padding: 17px;
+
+
 }
 
 #list-title {
