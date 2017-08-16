@@ -53,38 +53,36 @@ padding: 17px;
 }
 
 .declawing {
-  background-image: url("images/declawing-image.jpeg");
-  background-repeat: no-repeat;
+  /*background-image: url("images/declawing-image.jpeg");*/
+  /*background-repeat: no-repeat;*/
+  background-color: #00cccc;
   width: 400px;
   height: 400px;
 }
 
 #declawingFact {
-  color: white;
+  /*color: white;*/
 }
 
 #farming {
-  background-image: url("images/farm-image.jpeg");
-  background-repeat: no-repeat;
+  background-color: #00cccc;
   width: 400px;
   height: 400px;
-  color: white;
+  /*color: white;*/
 }
 
 #testing {
-  background-image: url("images/testing-image.jpeg");
-  background-repeat: no-repeat;
+  background-color: #00cccc;
   width: 400px;
   height: 400px;
-  color: white;
+  /*color: white;*/
 }
 
 #puppyMills {
-  background-image: url("images/puppymills.jpg");
-  background-repeat: no-repeat;
+  background-color: #00cccc;
   width: 400px;
   height: 400px;
-  color: white;
+  /*color: white;*/
 }
 
 #declawingAnswer1,
@@ -106,8 +104,53 @@ padding: 17px;
   display: none;
 }
 
-.declawing, #farming, #testing {
+.declawing, #farming, #testing, #puppyMills {
    width: 500px;
    margin: 40px auto;
    display: block;
+   font-family: 'Aladin', cursive;
+   color: black;
+   opacity: 1;
+   font-size: 24px;
+}
+
+#declawingImage1 {
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+}
+button {
+  width: 150px;
+  height: 50px;
+  background-color: #ccffff;
+  color: black;
+  font-size: 20px;
+  font-family: 'Aladin', cursive;
+  /*margin: 40px auto;
+  display: block;*/
+}
+#farmingImage1{
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+}
+#testingImage1{
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+}
+#puppyImage1{
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+}
+
+.answer {
+  background-color: #ccffff;
+  color: black;
+  font-family: 'Aladin', cursive;
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+  font-size: 25px;
 }

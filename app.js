@@ -2,13 +2,13 @@ $(document).ready(function(){
   //example code - feel free to delete!
   // var timesSillyButtonClicked = 0;
   $('#yes1').click(function() {
-   $('#declawingAnswer1').show();
+   $('#declawingAnswer2').show();
    $('.declawing').hide();
 
 
 });
 $('#no1').click(function() {
- $('#declawingAnswer2').show();
+ $('#declawingAnswer1').show();
  $('.declawing').hide();
 
 
@@ -50,4 +50,3 @@ $('#no4').click(function() {
 
 });
 });
-
