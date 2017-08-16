@@ -34,8 +34,8 @@ a {
 .declawing {
   background-image: url("images/declawing-image.jpeg");
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
 }
 
 #declawingFact {
@@ -45,24 +45,24 @@ a {
 #farming {
   background-image: url("images/farm-image.jpeg");
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   color: white;
 }
 
 #testing {
   background-image: url("images/testing-image.jpeg");
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   color: white;
 }
 
 #puppyMills {
   background-image: url("images/puppymills.jpg");
   background-repeat: no-repeat;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   color: white;
 }
 
@@ -79,4 +79,14 @@ a {
 #testingAnswer1,
 #testingAnswer2 {
   display: none;
+}
+
+#puppyAnswer1, #puppyAnswer2 {
+  display: none;
+}
+
+.declawing, #farming, #testing {
+   width: 500px;
+   margin: 40px auto;
+   display: block;
 }
