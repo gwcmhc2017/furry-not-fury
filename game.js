@@ -20,15 +20,19 @@ $(document).ready(function(){
       distanceFromTop +=25;
       $('#cat').css('top', distanceFromTop);
     }
-    if (distanceFromTop === 775){
-      $('#help1').show();
+    if (distanceFromTop === 775 && (distanceFromLeft===375|| distanceFromLeft===650|| distanceFromLeft===50)){
+      // $('#help1').show();
+    var random =Math.random();{
+    if (random<0.25){
+      $("#help1").show();
+    }else if (random < 0.5 && random > 0.25){
+        $("#help2").show();
+    }else if(random<0.75 && random > 0.5){
+        $("#help3").show();
+    }else if (random < 1.0 && random > 0.75){
+      $("#help4").show();
     }
-//     function getPos(el) {
-//     // yay readability
-//     for (var lx=0, ly=0;
-//          el != null;
-//          lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
-//     return {x: lx,y: ly};
-// }
-  });
-});
+    }
+    }
+  })
+})
