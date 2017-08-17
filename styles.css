@@ -211,3 +211,15 @@ h2{
   font-family: 'Fira Sans', sans-serif;
   font-size: 40px;
 }
+
+h4{
+  text-align: center;
+  font-size: 40px;
+}
+
+#directions{
+  text-align: center;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #ccffff;
+}
