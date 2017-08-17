@@ -4,6 +4,7 @@
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 2;
 }
 body {
     background-image: url("images/layladrawing.png");
@@ -17,20 +18,27 @@ background-size: cover;
   left: 50px;
   width: 150px;
   height: 150px;
+  z-index: 1;
 }
 
 #house2{
 position: relative;
 top: 775px;
-left: 150px;
+left: 375px;
 width:200px;
 height:150px;
+z-index: 1;
 }
 
 #house3{
 position: relative;
 top: 775px;
-left: 250px;
+left: 650px;
 width: 200px;
 height: 150px;
+z-index: 1;
+}
+
+#help1 {
+  display: none;
 }

@@ -3,22 +3,26 @@ $(document).ready(function(){
     var distanceFromTop = 0;
   $(document).keydown(function(event){
     if (event.keyCode === 39){
-      distanceFromLeft +=9;
+      distanceFromLeft +=12;
       $('#cat').css('left', distanceFromLeft);
     }
     if (event.keyCode === 37){
-      distanceFromLeft -=8;
+      distanceFromLeft -=11;
       $('#cat').css('left', distanceFromLeft);
     }
 
 
     if (event.keyCode === 38){
-      distanceFromTop -=9;
+      distanceFromTop -=12;
       $('#cat').css('top', distanceFromTop);
     }
     if (event.keyCode === 40){
-      distanceFromTop +=8;
+      distanceFromTop +=11;
       $('#cat').css('top', distanceFromTop);
     }
+    if ("top" === 775 && "left" === 50){
+      $('#help1').show();
+    }
+
   });
 });
