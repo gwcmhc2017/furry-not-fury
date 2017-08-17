@@ -20,19 +20,26 @@ $(document).ready(function(){
       distanceFromTop +=25;
       $('#cat').css('top', distanceFromTop);
     }
-    if (distanceFromTop === 775 && (distanceFromLeft===375|| distanceFromLeft===650|| distanceFromLeft===50)){
+    if (distanceFromTop === 775 && (distanceFromLeft===1500|| distanceFromLeft===850|| distanceFromLeft===50)){
+
       // $('#help1').show();
-    var random =Math.random();{
+    var random =Math.random();
     if (random<0.25){
       $("#help1").show();
+      $(".button").show();
     }else if (random < 0.5 && random > 0.25){
         $("#help2").show();
+        $(".button").show();
     }else if(random<0.75 && random > 0.5){
         $("#help3").show();
+        $(".button").show();
     }else if (random < 1.0 && random > 0.75){
       $("#help4").show();
+        $(".button").show();
     }
-    }
+
+
+
     }
   })
 })
