@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var distanceFromLeft = 0;
+    var distanceFromLeft = 0;
     var distanceFromTop = 0;
     var canIPlay = true
 
@@ -25,8 +25,8 @@ $(document).ready(function(){
     }
   }
     if (distanceFromTop === 775 && (distanceFromLeft===1500|| distanceFromLeft===850|| distanceFromLeft===50)){
-canIPlay = false
-      // $('#help1').show();
+      canIPlay = false
+
     var random =Math.random();
     if (random<0.25){
 
@@ -42,15 +42,14 @@ canIPlay = false
 
     }else if (random < 1.0 && random > 0.75){
       $("#help4").show();
-        $(".button").show();
+      $(".button").show();
 
     };
    $('.button').click(function(){
     canIPlay = true;
-
-  distanceFromLeft = 0;
- distanceFromTop = 0;
-   $('#cat').css('left',0);
+    distanceFromLeft = 0;
+    distanceFromTop = 0;
+  $('#cat').css('left',0);
   $('#cat').css('top',0);
   $("#help1").hide();
   $("#help2").hide();
