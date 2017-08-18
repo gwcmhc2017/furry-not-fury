@@ -47,12 +47,15 @@ canIPlay = false
     };
    $('.button').click(function(){
     canIPlay = true;
+
+  distanceFromLeft = 0;
+ distanceFromTop = 0;
    $('#cat').css('left',0);
   $('#cat').css('top',0);
   $("#help1").hide();
   $("#help2").hide();
   $("#help3").hide();
-  $("#help4").hide()
+  $("#help4").hide();
 })
 }
 })
