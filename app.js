@@ -65,22 +65,24 @@ $('#no4').click(function() {
    $(".no").click(function() {
      timesNoButtonClicked++;
    });
-   $("#submit").click(function() {
-     if ( > ) {
+   $("#scoreButton").click(function() {
 
-       $("").show();
-     } else if ( < ) {
-       $("").show();
+
+     if (timesNoButtonClicked > timesYesButtonClicked) {
+
+       $("#good-answer").show();
+     } else if (timesNoButtonClicked < timesYesButtonClicked || timesNoButtonClicked === timesYesButtonClicked) {
+       $("#bad-answer").show();
      }
    });
 
-   $("#submit").click(function() {
-     if ( > ) {
-       $("").show();
-
-    } else if ( < ) {
-       $("").show();
-     }
+  //  $("#scoreButton").click(function() {
+  //    if (timesNoButtonClicked > timesYesButtonClicked) {
+  //      $("#good-answer").show();
+   //
+  //   } else if (timesYesButtonClicked < timesNoButtonClicked) {
+  //      $("#bad-answer").show();
+  //    }
 
   });
- });
+//});
