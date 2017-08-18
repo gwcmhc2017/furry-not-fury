@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
   $('#yes1').click(function() {
-   $('#declawingAnswer2').show();
+   $('#declawingAnswer1').show();
    $('.declawing').hide();
 
 
 });
 $('#no1').click(function() {
- $('#declawingAnswer1').show();
+ $('#declawingAnswer2').show();
  $('.declawing').hide();
 
 
@@ -49,3 +49,40 @@ $('#no4').click(function() {
 
 });
 });
+
+
+
+
+
+
+ $(document).ready(function() {
+   var timesYesButtonClicked = 0;
+   var timesNoButtonClicked = 0;
+
+   $(".yes").click(function() {
+     timesYesButtonClicked++;
+   });
+   $(".no").click(function() {
+     timesNoButtonClicked++;
+   });
+   $("#scoreButton").click(function() {
+
+
+     if (timesNoButtonClicked > timesYesButtonClicked) {
+
+       $("#good-answer").show();
+     } else if (timesNoButtonClicked < timesYesButtonClicked || timesNoButtonClicked === timesYesButtonClicked) {
+       $("#bad-answer").show();
+     }
+   });
+
+  //  $("#scoreButton").click(function() {
+  //    if (timesNoButtonClicked > timesYesButtonClicked) {
+  //      $("#good-answer").show();
+   //
+  //   } else if (timesYesButtonClicked < timesNoButtonClicked) {
+  //      $("#bad-answer").show();
+  //    }
+
+  });
+//});

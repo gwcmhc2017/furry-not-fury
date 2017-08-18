@@ -12,6 +12,9 @@ body {
   border-width: 10px;
   border-color: #ccffff;
 }
+#list-title{
+  font-size: 25px;
+}
 
 a {
   color: #1929a0;
@@ -204,6 +207,43 @@ button {
   width: 300px;
   margin: auto;
   opacity: 1;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+}
 
 
+h4{
+  text-align: center;
+  font-size: 40px;
+}
+
+#directions{
+  text-align: center;
+  border-style: groove;
+  border-width: 10px;
+  border-color: #ccffff;
+}
+
+#good-answer, #bad-answer {
+  display: none;
+  font-family: 'Aladin', cursive;
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  font-size: 25px;
+  padding: 20px;
+  border-style: dotted;
+  border-color: white;
+  border-width: 20px;
+  opacity: 1;
+  background-color: #ccffff;
+
+}
+#cat-dog{
+  width:250px;
+  opacity: 1;
 }
